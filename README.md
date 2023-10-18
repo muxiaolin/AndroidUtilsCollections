@@ -6,6 +6,7 @@ android utils工具类集合
     dependencies {
         implementation 'io.github.muxiaolin:android-utils:${last_version}'
         implementation 'com.google.code.gson:gson:${last_version}'
+        implementation 'androidx.core:core-ktx:1.7.0'
     }
 
 二.在Application中，初始化
